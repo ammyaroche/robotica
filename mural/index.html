@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mural digital sobre agentes en el funcionamiento de robots." />
+  <title>Agentes en el funcionamiento de los robots</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <div class="brand">🤖 Robótica</div>
+      <a class="nav-link" href="#jerarquia">Jerarquía de agentes</a>
+    </nav>
+
+    <div class="hero-content container">
+      <span class="eyebrow">Actividad 1 · Mural digital</span>
+      <h1>Agentes en el funcionamiento de los robots</h1>
+      <p>
+        Un robot puede entenderse como un sistema formado por varios agentes de software y hardware
+        que trabajan de manera coordinada para percibir, decidir y actuar sobre su entorno.
+      </p>
+      <div class="student-card">
+        <strong>Estudiante:</strong> Ammy Aroche 202006328
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="videos">
+      <div class="section-heading">
+        <span class="number">01</span>
+        <div>
+          <p class="kicker">Videos observados</p>
+          <h2>Robots en funcionamiento</h2>
+        </div>
+      </div>
+
+      <div class="video-grid">
+        <article class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/sWgvIAkfqXQ" title="Video 1 de robótica" allowfullscreen></iframe>
+          </div>
+          <div class="video-body">
+            <span>Video 1</span>
+            <h3>Brazo robótico / robot industrial</h3>
+            <p>Se observan movimientos coordinados, control de articulaciones y ejecución de tareas programadas.</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/2_9mCTAyCOs" title="Video 2 de robótica" allowfullscreen></iframe>
+          </div>
+          <div class="video-body">
+            <span>Video 2</span>
+            <h3>Avances y aplicaciones de robótica</h3>
+            <p>Se identifican sistemas capaces de percibir información, procesarla y responder mediante acciones.</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VWB6xd8ZQEM" title="Video 3 de robótica industrial" allowfullscreen></iframe>
+          </div>
+          <div class="video-body">
+            <span>Video 3</span>
+            <h3>Robots industriales trabajando</h3>
+            <p>Se observan robots manipuladores realizando movimientos repetitivos y coordinados en procesos industriales.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="agentes">
+      <div class="container">
+        <div class="section-heading">
+          <span class="number">02</span>
+          <div>
+            <p class="kicker">Lista de agentes</p>
+            <h2>Agentes que intervienen en el funcionamiento</h2>
+          </div>
+        </div>
+
+        <p class="intro">
+          A partir de la observación de los videos y de la clasificación estudiada en la guía, estos son los
+          agentes que pueden identificarse por la función que cumplen dentro del robot.
+        </p>
+
+        <div class="agent-grid">
+          <article class="agent-card">
+            <div class="icon">🧠</div>
+            <h3>Agente de sistema y control</h3>
+            <p>Coordina sensores y actuadores. Recibe información, organiza acciones y mantiene el funcionamiento general del robot.</p>
+            <span class="tag">Coordinación</span>
+          </article>
+
+          <article class="agent-card">
+            <div class="icon">👁️</div>
+            <h3>Agente de percepción</h3>
+            <p>Interpreta la información obtenida por sensores, cámaras, encoders u otros dispositivos para conocer el entorno.</p>
+            <span class="tag">Sensores</span>
+          </article>
+
+          <article class="agent-card">
+            <div class="icon">🗺️</div>
+            <h3>Agente de planificación</h3>
+            <p>Calcula trayectorias o configuraciones y selecciona una acción adecuada según la posición y la tarea a realizar.</p>
+            <span class="tag">Trayectoria</span>
+          </article>
+
+          <article class="agent-card">
+            <div class="icon">⚙️</div>
+            <h3>Agente de movimiento</h3>
+            <p>Controla el desplazamiento de ruedas o articulaciones y convierte las órdenes del sistema en movimiento.</p>
+            <span class="tag">Locomoción</span>
+          </article>
+
+          <article class="agent-card">
+            <div class="icon">🦾</div>
+            <h3>Agente actuador</h3>
+            <p>Controla la herramienta o elemento final del robot para ejecutar acciones como sujetar, mover, ensamblar o manipular piezas.</p>
+            <span class="tag">Acción</span>
+          </article>
+
+          <article class="agent-card">
+            <div class="icon">💻</div>
+            <h3>Agente de interfaz</h3>
+            <p>Permite que una persona pueda interactuar directamente con el sistema, por ejemplo para iniciar, detener o configurar una tarea.</p>
+            <span class="tag">Usuario</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="jerarquia">
+      <div class="section-heading">
+        <span class="number">03</span>
+        <div>
+          <p class="kicker">Análisis</p>
+          <h2>¿Cuál es la jerarquía de los agentes?</h2>
+        </div>
+      </div>
+
+      <div class="hierarchy-layout">
+        <div class="hierarchy">
+          <div class="level level-1">
+            <span>1</span>
+            <div>
+              <strong>Agente de sistema y control</strong>
+              <small>Coordina el funcionamiento general</small>
+            </div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="level level-2">
+            <span>2</span>
+            <div>
+              <strong>Percepción + planificación</strong>
+              <small>Reciben información y deciden qué hacer</small>
+            </div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="level level-3">
+            <span>3</span>
+            <div>
+              <strong>Movimiento + actuadores</strong>
+              <small>Ejecutan físicamente la acción</small>
+            </div>
+          </div>
+          <div class="arrow">↓</div>
+          <div class="level level-4">
+            <span>4</span>
+            <div>
+              <strong>Interfaz</strong>
+              <small>Facilita la interacción con el usuario</small>
+            </div>
+          </div>
+        </div>
+
+        <article class="answer-card">
+          <p class="kicker">Mi respuesta</p>
+          <h3>El agente más importante: sistema y control</h3>
+          <p>
+            Considero que el <strong>agente de sistema y control</strong> es el más importante porque coordina a los
+            sensores y actuadores. Su función permite integrar la información que recibe el robot con las acciones
+            que debe ejecutar. Sin esta coordinación, los demás agentes podrían realizar funciones aisladas, pero el
+            robot no trabajaría como un sistema organizado.
+          </p>
+          <p class="note">
+            <strong>Importante:</strong> la guía no establece una jerarquía única para todos los robots. La arquitectura
+            y el objetivo del robot determinan qué agentes necesita. Esta jerarquía representa una propuesta personal
+            basada en la función que cada agente cumple.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="container quote-box">
+        <div class="quote-icon">“</div>
+        <p>
+          Los agentes trabajan de forma colaborativa dentro de la arquitectura del robot y permiten que el sistema
+          perciba, procese información y produzca acciones para cumplir un objetivo.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container" id="conclusion">
+      <div class="section-heading">
+        <span class="number">04</span>
+        <div>
+          <p class="kicker">Conclusión</p>
+          <h2>Un robot funciona como un equipo</h2>
+        </div>
+      </div>
+      <p class="conclusion-text">
+        Al observar los robots se puede comprender que su funcionamiento no depende de un solo componente. Los
+        sensores, el procesamiento, la planificación y los actuadores deben trabajar de manera coordinada. Por eso,
+        entender al robot como un sistema multiagente ayuda a explicar cómo una tarea compleja puede dividirse en
+        funciones más pequeñas que colaboran para alcanzar una misma meta.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>Actividad 1 · Agentes, sensores, módulos y anatomía de un robot</span>
+      <span>USAC · EFPEM</span>
+    </div>
+  </footer>
+</body>
+</html>
